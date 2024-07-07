@@ -6,6 +6,10 @@ JusticeLink is a platform designed to connect Ethiopian communities with afforda
 ## Problem Statement
 Many Ethiopian communities lack legal knowledge and have low incomes, making it difficult for them to obtain the legal aid they need. They often waste time and money trying to find affordable attorneys or legal assistance. JusticeLink aims to solve this problem by providing a platform that facilitates connections between the community and affordable attorneys, as well as legal aid organizations.
 
+The Hague – A Justice Needs and Satisfaction Survey (JNS) conducted in 2020 by The Hague Institute for Innovation of Law (HiiL) shows that rapid development and urbanization continue to widen Ethiopia’s justice gap. Of the 7.4 million legal problems occurring in the country, 5.2 million remain unresolved or perceived as unfairly resolved.
+
+“Legal problems in Ethiopia are relatively low compared to other countries in Sub-Saharan Africa,” said Dr. Martin Gramatikov, director of Measuring Justice at HiiL. “That said, however, addressing the high demand for access and resolution to these issues will require bold action from justice stakeholders across the country. What matters is how many legal problems Ethiopians manage to resolve fairly.”
+
 ## Proposed Solution
 JusticeLink will offer the following features:
 1. **Attorney Directory:** A searchable database of attorneys offering affordable and pro bono services.
@@ -56,7 +60,6 @@ We welcome contributions from the community. Please fork the repository and crea
 ## Important Sources
 - [WomenConnect - Legal Aid in Ethiopia](https://www.womenconnect.org/web/ethiopia/legal-aid#:~:text=In%20general%2C%20the%20Ethiopian%20government,General%2FRegional%20Justice%20Bureaus)
 - [HiiL - Widening Justice Gap in Ethiopia](https://www.hiil.org/news/press-release-widening-justice-gap-in-ethiopia-requires-bold-actions-and-innovation-to-boost-access-to-justice/)
-
 
 ## License
 This project is licensed under the MIT License.
