@@ -15,7 +15,7 @@ JusticeLink will offer the following features:
 5. **Matching System:** An algorithm that matches users with attorneys based on their needs and the attorneys' expertise.
 6. **Feedback and Rating System:** Users can rate and leave feedback for attorneys and services they receive.
 7. **Text and Video Chat:** Integrated text and video chat functionality to facilitate communication between users and attorneys.
-8. **AI Chat Bot:** An AI-powered chat bot to provide preliminary legal advice and assist users in navigating the platform.
+8. **AI Chat Bot:** An AI-powered chatbot to provide preliminary legal advice and assist users in navigating the platform.
 
 ## Target Users
 - **Primary Users:** Low-income individuals in need of affordable legal services, attorneys willing to offer affordable or pro bono services, and legal aid organizations.
@@ -45,16 +45,16 @@ JusticeLink aims to transform the legal landscape in Ethiopia and potentially ac
 - **Version Control:** Git, GitHub
 
 ## Team Members
-- **[Your Name]**
-- **[Team Member 2]**
-- **[Team Member 3]**
-- **[Team Member 4]**
+- **Daniel Asfaw**
+- **Eyerusalem Bezu**
+- **Haweten Girma**
+- **Solome Getachew**
 
 ## Contributing
 We welcome contributions from the community. Please fork the repository and create a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgements
 - [A2SV](https://www.a2sv.org) for organizing the hackathon and providing this opportunity.
