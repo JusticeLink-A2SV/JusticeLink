@@ -41,7 +41,7 @@ JusticeLink aims to transform the legal landscape in Ethiopia and potentially ac
 - **Front-End:** React, HTML, CSS
 - **Back-End:** Firebase
 - **Database:** Firestore
-- **Hosting:** Firebase Hosting
+- **Hosting:** Vercel
 - **Version Control:** Git, GitHub
 
 ## Team Members
@@ -52,6 +52,11 @@ JusticeLink aims to transform the legal landscape in Ethiopia and potentially ac
 
 ## Contributing
 We welcome contributions from the community. Please fork the repository and create a pull request with your changes.
+
+## Important Sources
+- [WomenConnect - Legal Aid in Ethiopia](https://www.womenconnect.org/web/ethiopia/legal-aid#:~:text=In%20general%2C%20the%20Ethiopian%20government,General%2FRegional%20Justice%20Bureaus)
+- [HiiL - Widening Justice Gap in Ethiopia](https://www.hiil.org/news/press-release-widening-justice-gap-in-ethiopia-requires-bold-actions-and-innovation-to-boost-access-to-justice/)
+
 
 ## License
 This project is licensed under the MIT License.
