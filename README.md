@@ -60,6 +60,7 @@ We welcome contributions from the community. Please fork the repository and crea
 ## Important Sources
 - [WomenConnect - Legal Aid in Ethiopia](https://www.womenconnect.org/web/ethiopia/legal-aid#:~:text=In%20general%2C%20the%20Ethiopian%20government,General%2FRegional%20Justice%20Bureaus)
 - [HiiL - Widening Justice Gap in Ethiopia](https://www.hiil.org/news/press-release-widening-justice-gap-in-ethiopia-requires-bold-actions-and-innovation-to-boost-access-to-justice/)
+- [Justice Needs and Satisfaction in Ethiopia 2020 | Legal problems in daily life](https://www.hiil.org/wp-content/uploads/2019/09/JNS_Ethiopa_2020.pdf)
 
 ## License
 This project is licensed under the MIT License.
