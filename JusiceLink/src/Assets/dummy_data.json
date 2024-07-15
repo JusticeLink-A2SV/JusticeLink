@@ -1,0 +1,78 @@
+{
+  "img": "../../src/Assets/download.jpg",
+  "firstName": "Abebe",
+  "lastName": "Balcha",
+  "numberOfReview": 75,
+  "stars": 3,
+  "location": "Addis Ababa, A.A",
+  "experienceYears": 31,
+  "ourRating": 8.5,
+  "phone": "+251 (11) 234-5678",
+  "email": "abebe.balcha@justice.et",
+  "address": "789 Legal Ave, Addis Ababa, Ethiopia",
+  "website": "www.justice.et",
+  "cost": [
+    {
+      "rate": "Hourly Rate: 250-300",
+      "payment": "Cash, CreditCard, Check"
+    },
+    {
+      "rate": "Weekly Rate: 150-250",
+      "payment": "Cash"
+    }
+  ],
+  "education": [
+    "Bachelor Degree, Political Science, AAU",
+    "MSC, Law, Oxford",
+    "PHD, Law, AAU"
+  ],
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporary incididunt ut labore et dolore magna aliqua. Ut enim ad minimjuii veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "practiceAreas": [
+    {
+      "name": "Child and Labour",
+      "percent": 30
+    },
+    {
+      "name": "Divorce and Custody",
+      "percent": 15
+    },
+    {
+      "name": "Criminal laws",
+      "percent": 40
+    },
+    {
+      "name": "Contract laws",
+      "percent": 15
+    }
+  ],
+  "reviews": [
+    {
+      "title": "A Defense Attorney to Trust",
+      "description": "Mr. Richards exuded self-confidence and knowledge of the law with regard to our case. He was always clear in his approach to defending our son. If we had questions or concerns, he always responded to our questions. He showed compassion. His involvement did not end after the court ruling.",
+      "name": "Anonymous",
+      "status": "Hired Attorney",
+      "rate": 2
+    },
+    {
+      "title": "A Defense Attorney to Trust",
+      "description": "Mr. Richards exuded self-confidence and knowledge of the law with regard to our case. He was always clear in his approach to defending our son. If we had questions or concerns, he always responded to our questions. He showed compassion. His involvement did not end after the court ruling.",
+      "name": "Anonymous",
+      "status": "Hired Attorney",
+      "rate": 3
+    },
+    {
+      "title": "A Defense Attorney to Trust",
+      "description": "Mr. Richards exuded self-confidence and knowledge of the law with regard to our case. He was always clear in his approach to defending our son. If we had questions or concerns, he always responded to our questions. He showed compassion. His involvement did not end after the court ruling.",
+      "name": "Anonymous",
+      "status": "Hired Attorney",
+      "rate": 3
+    },
+    {
+      "title": "A Defense Attorney to Trust",
+      "description": "Mr. Richards exuded self-confidence and knowledge of the law with regard to our case. He was always clear in his approach to defending our son. If we had questions or concerns, he always responded to our questions. He showed compassion. His involvement did not end after the court ruling.",
+      "name": "Anonymous",
+      "status": "Hired Attorney",
+      "rate": 3
+    }
+  ]
+}
