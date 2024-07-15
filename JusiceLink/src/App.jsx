@@ -1,8 +1,13 @@
-import LawyerProfile from "./Components/LawyerProfileDetail/LawyerProfile";
+// import LawyerProfile from "./Components/LawyerProfileDetail/LawyerProfile";
+import User from "./Components/UserProfile/User";
 
 function App() {
-  return <LawyerProfile />;
+  return <User />;
 }
+
+// function App() {
+//   return <LawyerProfile />;
+// }
 
 // function App() {
 //   return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
