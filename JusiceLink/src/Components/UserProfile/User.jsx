@@ -1,9 +1,9 @@
-import UserDashboard from "./UserDashboard";
+import Sidebar from "./SideBar";
 
 export default function User() {
   return (
     <div>
-      <UserDashboard />
+      <Sidebar />
     </div>
   );
 }
