@@ -1,4 +1,4 @@
-// import LawyerProfile from "./Components/LawyerProfileDetail/LawyerProfile";
+// import LawyerProfile from "../src/Components/LawyerProfileDetail/LawyerProfile";
 import User from "./Components/UserProfile/User";
 
 function App() {
