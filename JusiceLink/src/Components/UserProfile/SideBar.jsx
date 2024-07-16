@@ -1,5 +1,4 @@
 import { useState, useLayoutEffect } from "react";
-import Nav from "../../Components/LawyerProfileDetail/Nav";
 import {
   FaTachometerAlt,
   FaBars,
@@ -13,6 +12,7 @@ import UserDashboard from "./UserDashboard";
 import ProfileSetting from "./ProfileSetting";
 import Saved from "./Saved";
 import FeedbackAndReview from "./FeedbackAndReview";
+import NavBar from "../NavBar";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -49,16 +49,16 @@ const Sidebar = () => {
   return (
     <div className="flex ">
       <div
-        className={`bg-gray-400 min-h-screen border-y-black  text-white md:${
-          isOpen ? "w-64" : "w-20"
-        } ${isSmallScreen ? "w-12" : "w-12"} duration-300 `}
+        className={`bg-gray-400 min-h-screen border-y-black  text-white ${
+          isSmallScreen && isOpen ? "w-12" : isOpen ? "w-64" : "w-20"
+        } duration-300 `}
       >
         <button className="p-4 focus:outline-none" onClick={toggleSidebar}>
           {isOpen ? <FaTimes color="blue" /> : <FaBars color="blue" />}
         </button>
         <nav className="mt-10">
           <ul>
-            <li>
+            <li className="mb-8">
               <img src={logo} />
             </li>
             <li
@@ -125,7 +125,7 @@ const Sidebar = () => {
         </nav>
       </div>
       <div className="flex-1 p-2 overflow-hidden">
-        <Nav />
+        <NavBar />
         <div>{showContent()}</div>
       </div>
     </div>
