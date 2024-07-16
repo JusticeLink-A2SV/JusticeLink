@@ -1,6 +1,6 @@
 import { createContext } from "react";
 import PropTypes from "prop-types";
-import data from "../Assets/dummy_data.json";
+import data from "../../src/assets/dummy_data.json";
 
 // import data from "../../src/assets/dummy_data.json";
 

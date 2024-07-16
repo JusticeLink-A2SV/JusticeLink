@@ -1,4 +1,4 @@
-import practiceImage from "../Assets/practiceImage.png";
+import practiceImage from "../assets/practiceImage.png";
 
 // import practiceImage from "../assets/practiceImage.png";
 

@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import Home from './components/Home';
 import Home from "./pages/Home";
-import LawyerProfile from "./Components/LawyerProfileDetail/LawyerProfile";
+import LawyerProfile from "./components/LawyerProfileDetail/LawyerProfile";
 // // import LawyerProfile from "../src/Components/LawyerProfileDetail/LawyerProfile.jsx";
 // // import User from "./Components/UserProfile/User";
 // // function App() {

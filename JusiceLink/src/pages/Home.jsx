@@ -1,8 +1,8 @@
-import NavBar from "../Components/NavBar";
-import logo from "../Assets/logo.png";
-import bg from "../Assets/homePageImage.png";
-import PracticeBox from "../Components/PracticeBox";
-import Fotter from "../Components/Fotter";
+import NavBar from "../components/NavBar";
+import logo from "../assets/logo.png";
+import bg from "../assets/homePageImage.png";
+import PracticeBox from "../components/PracticeBox";
+import Fotter from "../components/Fotter";
 
 // import PracticeBox from "../components/PracticeBox";
 
