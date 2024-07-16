@@ -1,5 +1,6 @@
-import React from "react";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
+import logo from "../Assets/logo.png";
 const NavBar = () => {
   return (
     <div className="flex justify-center">
@@ -7,7 +8,9 @@ const NavBar = () => {
         <img className=" w-[150px] inline" src={logo} />
         <div className="flex">
           <ul className="flex gap-10 pr-14 items-center">
-            <li className="">By Location</li>
+            <li className="">
+              <Link to="/lawyer">By Location</Link>
+            </li>
             <li className="">By Practice</li>
             <li className="">Pro Bono</li>
             <li className="">Blogs</li>

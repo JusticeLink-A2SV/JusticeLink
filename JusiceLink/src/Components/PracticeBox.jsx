@@ -1,5 +1,6 @@
-import React from "react";
-import practiceImage from "../assets/practiceImage.png";
+import practiceImage from "../Assets/practiceImage.png";
+
+// import practiceImage from "../assets/practiceImage.png";
 
 const PracticeBox = () => {
   return (
