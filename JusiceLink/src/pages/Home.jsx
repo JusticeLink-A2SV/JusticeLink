@@ -1,14 +1,20 @@
-import NavBar from "../components/NavBar";
-import logo from "../assets/logo.png";
+import { useContext } from "react";
+import NavBar from "../Components/NavBar";
 import bg from "../assets/homePageImage.png";
-import PracticeBox from "../components/PracticeBox";
-import Fotter from "../components/Fotter";
-
-// import PracticeBox from "../components/PracticeBox";
-
-// import Fotter from "../components/Fotter";
+import PracticeBox from "../Components/PracticeBox";
+import Fotter from "../Components/Fotter";
+import { LawyerContext } from "../Context/ContextProvider";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  const { searchData, setSearchData } = useContext(LawyerContext);
+  const handleLocationChange = (e) => {
+    setSearchData((prev) => ({ ...prev, location: e.target.value }));
+  };
+
+  const handlePracticeChange = (e) => {
+    setSearchData((prev) => ({ ...prev, practice: e.target.value }));
+  };
   return (
     <div className="h-screen relative">
       <img className="h-[100%] absolute right-0 -z-[1]" src={bg} />
@@ -33,15 +39,24 @@ const Home = () => {
               className="h-12 border-2 border-gray-900 pl-10 focus:outline-none pr-4"
               type="text"
               placeholder="location"
+              value={searchData.location}
+              onChange={handleLocationChange}
             />
             <input
               className="h-12 border-2 border-l-0 border-gray-900 pl-4 focus:outline-none"
               type="text"
               placeholder="practice"
+              value={searchData.practice}
+              onChange={handlePracticeChange}
             />
-            <button className="bg-blue-700 text-white pt-2 pb-2 pr-4 pl-4">
-              Search
-            </button>
+            <Link to="/lawyer">
+              <button
+                className="bg-blue-700 text-white pt-2 pb-2 pr-4 pl-4 h-12"
+                type="submit"
+              >
+                Search
+              </button>
+            </Link>
           </form>
         </div>
       </div>
@@ -52,6 +67,7 @@ const Home = () => {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-18 md:gap-20 lg:gap-24">
+            <PracticeBox />
             <PracticeBox />
             <PracticeBox />
             <PracticeBox />

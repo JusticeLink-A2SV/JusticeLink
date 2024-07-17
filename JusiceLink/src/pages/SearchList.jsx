@@ -1,13 +1,14 @@
-import React from "react";
-import Fotter from "../components/Fotter";
-import NavBar from "../components/NavBar";
-import SearchFiled from "../components/SearchFiled";
+import Fotter from "../Components/Fotter";
+import NavBar from "../Components/NavBar";
+import SearchFiled from "../Components/SearchFiled";
 
 const SearchList = () => {
   return (
     <>
       <NavBar />
-      <SearchFiled />
+      <div className="flex justify-center items-center">
+        <SearchFiled />
+      </div>
       <Fotter />
     </>
   );

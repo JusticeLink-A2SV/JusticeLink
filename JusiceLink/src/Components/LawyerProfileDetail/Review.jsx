@@ -1,10 +1,9 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import Rating from "./Rating";
-import { LawyerContext } from "../../Context/ContextProvider";
-
+import data from "../../assets/dummy_data.json";
 function Review() {
-  const { reviews } = useContext(LawyerContext);
+  const { reviews } = data;
   const [expandedReview, setExpandedReview] = useState(null);
   const [visibleReviews, setVisibleReviews] = useState(2);
 

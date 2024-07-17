@@ -1,6 +1,5 @@
+import { Link } from "react-router-dom";
 import practiceImage from "../assets/practiceImage.png";
-
-// import practiceImage from "../assets/practiceImage.png";
 
 const PracticeBox = () => {
   return (
@@ -10,12 +9,14 @@ const PracticeBox = () => {
         src={practiceImage}
         alt="Practice Image"
       />
-      <p className="text-3xl p-5">Family</p>
-      <ul className="flex flex-col justify-center items-center">
-        <li>Divorce</li>
-        <li>Child Custody</li>
-        <li>Child Support</li>
-      </ul>
+      <Link to="/lawyer">
+        <p className="text-3xl p-5">Family</p>
+        <ul className="flex flex-col justify-center items-center">
+          <li>Divorce</li>
+          <li>Child Custody</li>
+          <li>Child Support</li>
+        </ul>
+      </Link>
     </div>
   );
 };

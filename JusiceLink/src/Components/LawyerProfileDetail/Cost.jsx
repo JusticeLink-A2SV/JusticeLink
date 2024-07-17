@@ -1,11 +1,10 @@
 import { IoIosHourglass } from "react-icons/io";
 import { FaCreditCard } from "react-icons/fa";
-import { LawyerContext } from "../../Context/ContextProvider";
-import { useContext } from "react";
 import { IoMdMail } from "react-icons/io";
+import data from "../../assets/dummy_data.json";
 
 export default function Cost() {
-  const { cost } = useContext(LawyerContext);
+  const { cost } = data;
 
   return (
     <div className="p-3">
