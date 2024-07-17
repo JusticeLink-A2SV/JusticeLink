@@ -60,18 +60,18 @@ JusticeLink aims to transform the legal landscape in Ethiopia and potentially ac
 
 ## Pages
 
-- Home Page
+- Home page
 
   ![Home Page](jusicelink/src/assets/homepage.png)
 
-- Lawyer Search Page
+- Lawyer search page
 
   ![Lawyer Search Page](jusicelink/src/assets/lawyersearch.png)
 
-- Lawyer Profile Page
+- Lawyer profile page
   ![Lawyer Profile Page](jusicelink/src/assets/lawyerProfile.png)
 
-- Chat Page
+- Chat page
 
   ![Chat Page](jusicelink/src/assets/chat.png)
 
