@@ -1,5 +1,3 @@
-import React from "react";
-
 const Fotter = () => {
   return (
     <footer className=" bg-blue-700 flex justify-center items-center mt-40 h-[50%]">

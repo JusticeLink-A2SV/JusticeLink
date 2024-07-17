@@ -2,11 +2,10 @@ import Rating from "./Rating";
 import { MdCheckCircle } from "react-icons/md";
 import { FaMapMarkerAlt, FaGlobe, FaPhone } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { LawyerContext } from "../../Context/ContextProvider";
-import { useContext } from "react";
+import data from "../../assets/dummy_data.json";
 
 export default function Profile() {
-  const lawyerData = useContext(LawyerContext);
+  const lawyerData = data;
   if (!lawyerData) {
     return <div>Loading...</div>;
   }

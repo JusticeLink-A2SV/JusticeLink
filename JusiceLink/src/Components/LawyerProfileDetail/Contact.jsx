@@ -2,10 +2,10 @@ import { FaPhone } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
-import { LawyerContext } from "../../Context/ContextProvider";
-import { useContext } from "react";
+import data from "../../assets/dummy_data.json";
+
 export default function Contact() {
-  const { phone, email, address, website } = useContext(LawyerContext);
+  const { phone, email, address, website } = data;
   return (
     <div className="p-2 md:text-lg cursor-pointer">
       {phone && (

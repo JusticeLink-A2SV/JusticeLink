@@ -1,11 +1,11 @@
-import { useEffect, useRef, useContext } from "react";
+import { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
-import { LawyerContext } from "../../Context/ContextProvider";
+import d from "../../assets/dummy_data.json";
 
 export default function PracticeChart() {
   const chartRef = useRef(null);
   const chartInstance = useRef(null);
-  const lawyerData = useContext(LawyerContext);
+  const lawyerData = d;
   const labels = lawyerData.practiceAreas.map((area) => area.name);
   const data = lawyerData.practiceAreas.map((area) => area.percent);
   const backgroundColor = [

@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-import { LawyerContext } from "../../Context/ContextProvider";
-import { useContext } from "react";
 import PracticeChart from "./Chart";
 import { FaGraduationCap } from "react-icons/fa";
+import data from "../../assets/dummy_data.json";
 
 const About = () => {
-  const { bio, education, practiceAreas } = useContext(LawyerContext);
+  const { bio, education, practiceAreas } = data;
   const [isExpanded, setIsExpanded] = useState(false);
   const maxLength = 300;
 

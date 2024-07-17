@@ -6,13 +6,16 @@ import {
   FaUserCog,
   FaBookmark,
   FaCommentAlt,
+  FaRegComment,
 } from "react-icons/fa";
-import logo from "../../Assets/logo.png";
+import logo from "../../assets/logo.png";
 import UserDashboard from "./UserDashboard";
 import ProfileSetting from "./ProfileSetting";
 import Saved from "./Saved";
 import FeedbackAndReview from "./FeedbackAndReview";
 import NavBar from "../NavBar";
+import { FaArrowLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -114,11 +117,23 @@ const Sidebar = () => {
               }`}
               onClick={() => handleNavItemClick("feedback")}
             >
-              <FaCommentAlt className="mr-2" color="blue" size={20} />
+              <FaRegComment className="mr-2" color="blue" size={20} />
               {isOpen && (
                 <span className={`${isSmallScreen ? "hidden" : "block"}`}>
                   Feedback and Review
                 </span>
+              )}
+            </li>
+            <li className={`flex items-center p-2cursor-pointer mt-12`}>
+              <FaCommentAlt className="ml-4 mt-12" color="white" size={20} />
+              {isOpen && (
+                <button
+                  className={` -ml-2 bg-blue-500 p-3 rounded-xl ${
+                    isSmallScreen ? "hidden" : "block"
+                  }`}
+                >
+                  Go to Message
+                </button>
               )}
             </li>
           </ul>
@@ -126,6 +141,9 @@ const Sidebar = () => {
       </div>
       <div className="flex-1 p-2 overflow-hidden">
         <NavBar />
+        <Link to="/">
+          <FaArrowLeft color="blue" className="ml-36" size={20} />
+        </Link>
         <div>{showContent()}</div>
       </div>
     </div>

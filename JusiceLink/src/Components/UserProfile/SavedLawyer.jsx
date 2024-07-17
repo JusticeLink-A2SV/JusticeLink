@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import img from "../../Assets/download.jpg";
+import img from "../../assets/download.jpg";
 import Rating from "../LawyerProfileDetail/Rating";
 import { FaUser } from "react-icons/fa";
 

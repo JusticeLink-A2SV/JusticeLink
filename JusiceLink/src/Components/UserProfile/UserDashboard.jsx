@@ -1,5 +1,5 @@
 import { useState, useLayoutEffect } from "react";
-import img from "../../Assets/justice.jpg";
+import img from "../../assets/justice.jpg";
 import { FaCalendarAlt, FaBell } from "react-icons/fa";
 
 export default function UserDashboard() {

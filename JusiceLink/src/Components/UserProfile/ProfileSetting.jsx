@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import PropTypes from "prop-types";
 import { FaTimes } from "react-icons/fa";
-import defaultUserImage from "../../Assets/user.png";
+import defaultUserImage from "../../assets/user.png";
 
 import {
   FaUser,
