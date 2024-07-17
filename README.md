@@ -62,19 +62,19 @@ JusticeLink aims to transform the legal landscape in Ethiopia and potentially ac
 
 - Home page
 
-  ![Home Page](jusicelink/src/Assets/homepage.png)
+  ![Home Page](https://github.com/JusticeLink-A2SV/JusticeLink/blob/main/JusiceLink/src/Assets/homepage.png)
 
 - Lawyer search page
 
-  ![Lawyer Search Page](jusicelink/src/Assets/lawyersearch.png)
+  ![Lawyer Search Page](https://github.com/JusticeLink-A2SV/JusticeLink/blob/main/JusiceLink/src/Assets/lawyersearch.png)
 
 - Lawyer profile page
 
-  ![Lawyer Profile Page](jusicelink/src/Assets/lawyerProfile.png)
+  ![Lawyer Profile Page](https://github.com/JusticeLink-A2SV/JusticeLink/blob/main/JusiceLink/src/Assets/lawyerProfile.png)
 
 - Chat page
 
-  ![Chat Page](jusicelink/src/Assets/chat.png)
+  ![Chat Page](https://github.com/JusticeLink-A2SV/JusticeLink/blob/main/JusiceLink/src/Assets/chat.png)
 
 ## Team Members
 
